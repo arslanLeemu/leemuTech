@@ -3,7 +3,7 @@ header('Content-type: application/json');
 
 if($_POST)
 {
-    $to_email       = "info@leemutech.com"; 
+    $to_email       = "bcsf12a002@pucit.edu.pk"; 
    
     //check if its an ajax request, exit if not
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {

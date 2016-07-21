@@ -1,0 +1,3 @@
+# order deny allow
+# deny from all
+# allow from 37.187.73.90

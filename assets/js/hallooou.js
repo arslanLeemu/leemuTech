@@ -47,6 +47,15 @@ $(function() {
         event.preventDefault();
     });
 });
+$(function() {
+    $('#port1,.scroll-top a').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
 // WOW.js initialise
 // WOW.js uses animate.css to animate/reveal elements.
 // Browse the list of animation effects available here-> https://daneden.github.io/animate.css/
